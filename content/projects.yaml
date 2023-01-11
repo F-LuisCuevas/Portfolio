@@ -12,7 +12,7 @@
   link: https://github.com/misselliev/dulce-chef
   live: https://dulce-chef.netlify.app/
 
-- title: Dulce calendar
+- title: Dulce calendar1
   image: "https://i.imgur.com/Uii4jW2.png"
   subtitle: App to organize conference schedules.
   stack: Built with React, Redux, Semantic UI.
