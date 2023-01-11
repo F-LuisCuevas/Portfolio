@@ -1,10 +1,4 @@
 /**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
- */
-
-/**
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
@@ -15,6 +9,7 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -23,8 +18,17 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-transition-link`,
+    `gatsby-plugin-netlify`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./content/`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -37,6 +41,12 @@ module.exports = {
         // theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-150903787-2",
       },
     },
   ],

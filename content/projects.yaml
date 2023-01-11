@@ -1,0 +1,21 @@
+- title: Dulce Flowers
+  image: "https://i.imgur.com/XeKIgb8.png"
+  subtitle: Flowershop website with shopping cart.
+  stack: Built with JavaScript, Gatsby, SnipCart.
+  link: https://github.com/misselliev/gatsby-flower-project
+  live: https://gatsby-flower-project.netlify.com/
+
+- title: Dulce Chef
+  image: "https://i.imgur.com/X254cpR.png"
+  subtitle: App you get out of a cooking rut.
+  stack: Built with React, Semantic UI
+  link: https://github.com/misselliev/dulce-chef
+  live: https://dulce-chef.netlify.app/
+
+- title: Dulce calendar
+  image: "https://i.imgur.com/Uii4jW2.png"
+  subtitle: App to organize conference schedules.
+  stack: Built with React, Redux, Semantic UI.
+  link: https://github.com/misselliev/dulce-calendar-redux
+  live: https://intense-garden-00658.herokuapp.com/
+
