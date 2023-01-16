@@ -2,7 +2,7 @@ import React from "react"
 import "../style.css"
 
 function card(props) {
-  const { cardTitle, cardImg, cardSubtitle, cardStack, link, live } = props
+  const { cardTitle, cardImg, cardSubtitle, cardStack, link, live, demo } = props
   return (
     <div className="col-lg-4">
       <div className="card mx-3 my-5">
@@ -21,13 +21,21 @@ function card(props) {
               Source code
             </a>
             <a
+              href={demo}
+              className="card-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              hidden={demo ? false : true}
+            >
+              Demo
+            </a>
+            <a
               href={live}
               className="card-link"
               target="_blank"
               rel="noopener noreferrer"
-              hidden={live ? false : true}
             >
-              Demo
+              Details
             </a>
           </div>
         </div>

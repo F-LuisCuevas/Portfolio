@@ -28,6 +28,7 @@ function Projects({ data }) {
               link={node.link}
               key={node.id}
               live={node.live}
+              demo={node.demo}
             />
           )
         })}
@@ -51,6 +52,7 @@ export const query = graphql`
           link
           id
           live
+          demo
         }
       }
     }

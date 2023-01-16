@@ -74,8 +74,8 @@ a:hover {
   max-width: 100%;
   height: auto;
   height: 200px;
+  width: 100%;
   border-radius: 1em;
-  margin-bottom: 1em;
 }
 
 .social {
@@ -137,9 +137,20 @@ a:hover {
 
 .project-row {
   display: grid;
-  grid-template-columns: 30% 30% 30%;
-  gap: 3rem;
+  grid-template-columns: 32% 32% 32%;
+  gap: 2rem;
   margin: 3rem;
+}
+
+@media (max-width: 900px) {
+  .project-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links {
+    gap: 1.5rem;
+  }
 }
 
 

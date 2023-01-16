@@ -1,21 +1,24 @@
-- title: Dulce Flowers
-  image: "https://i.imgur.com/XeKIgb8.png"
+- title: Forecasting Retail
+  image: "https://i.imgur.com/eWuSmZ6.png"
   subtitle: Flowershop website with shopping cart.
   stack: Built with JavaScript, Gatsby, SnipCart.
-  link: https://github.com/misselliev/gatsby-flower-project
-  live: https://gatsby-flower-project.netlify.com/
+  link: https://github.com/F-LuisCuevas/Retail
+  live: https://drive.google.com/file/d/1tYCQ7gNac56bJVuAVi9VwmnQpW6xZlDv/view?usp=sharing
+  demo: 
 
-- title: Dulce Chef
-  image: "https://i.imgur.com/X254cpR.png"
+- title: Risk Scoring
+  image: "https://i.imgur.com/PrPVn7z.png"
   subtitle: App you get out of a cooking rut.
   stack: Built with React, Semantic UI
-  link: https://github.com/misselliev/dulce-chef
+  link: https://github.com/F-LuisCuevas/RiskScoring
   live: https://dulce-chef.netlify.app/
+  demo: https://dulce-chef.netlify.app/
 
-- title: Dulce calendar1
-  image: "https://i.imgur.com/Uii4jW2.png"
+- title: Lead Scoring
+  image: "https://i.imgur.com/8vEp1VR.png"
   subtitle: App to organize conference schedules.
   stack: Built with React, Redux, Semantic UI.
-  link: https://github.com/misselliev/dulce-calendar-redux
-  live: https://intense-garden-00658.herokuapp.com/
+  link: https://github.com/F-LuisCuevas/LeadScoring
+  live: https://drive.google.com/file/d/1WJK8lnGd5CyMwXIgh9WLp4uNTgeeL4c9/view?usp=sharing
+  demo: 
 
