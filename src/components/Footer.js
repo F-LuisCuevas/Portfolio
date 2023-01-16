@@ -24,7 +24,7 @@ export default function Footer() {
       </a>
       <a
         className="mr-5 icon"
-        href="mailto:elizabeth.villalejos@gmail.com?subject=Website%20Inquiry"
+        href="mailto:luiselectrico89@gmail.com?subject=Work%20Inquiry"
       >
         <Mail />
       </a>
@@ -36,22 +36,8 @@ export default function Footer() {
       >
         <Linkedin />
       </a>
-      <a
-        className="mr-5 icon"
-        href="https://twitter.com/miss_elliev"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Twitter />
-      </a>
-      <a
-        className="mr-5 icon"
-        href="https://dev.to/misselliev"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <DevTo />
-      </a>
+
+
       <a
         className="mr-5 icon"
         href="https://drive.google.com/file/d/1A7sAi66y0fh40DmpmR9HjHfmvsHGqQGr/view"
