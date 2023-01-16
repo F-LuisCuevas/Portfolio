@@ -40,7 +40,7 @@ export default function Footer() {
 
       <a
         className="mr-5 icon"
-        href="https://drive.google.com/file/d/1A7sAi66y0fh40DmpmR9HjHfmvsHGqQGr/view"
+        href="https://drive.google.com/file/d/10wJyiuwxeTYyLZoVxfdCaGXohY8pf1Kd/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
